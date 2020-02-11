@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MobxAngularModule } from 'mobx-angular';
+import { MobxAngularModule } from 'mobx-angular/dist/lib/mobx-angular';
 
 import { IActionHandler, IActionMapping, TREE_ACTIONS } from './models/tree-options.model';
 import { IAllowDragFn, IAllowDropFn, ITreeOptions, ITreeState } from './defs/api';
